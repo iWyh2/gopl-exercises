@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"goplExercises/ch2"
+	"goplExercises/ch3"
 )
 
 func main() {
@@ -22,6 +22,10 @@ func main() {
 	//ch2.LengthTransfer()
 	//fmt.Println(ch2.PopCount(15)) // 1111
 	//fmt.Println(ch2.PopCountModified(15))
-	fmt.Println(ch2.PopCountModified2(15))
+	//fmt.Println(ch2.PopCountModified2(15))
+	//---------------------------
+	//fmt.Println(ch3.Comma("30000000"))
+	//fmt.Println(ch3.CommaModified("-1233.4567"))
+	fmt.Println(ch3.IsScrambledStr("abc", "cca"))
 	//---------------------------
 }
